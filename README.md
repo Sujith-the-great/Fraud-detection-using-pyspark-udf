@@ -91,9 +91,9 @@ We evaluated and compared four platforms for in-database inference:
 ---
 
 ## Authors
+- Bala Sujith P. — bpotinen@asu.edu 
 - Himansh U. — hmudigon@asu.edu  
-- Jainil T. — jtrived7@asu.edu  
-- Bala Sujith P. — bpotinen@asu.edu  
+- Jainil T. — jtrived7@asu.edu   
 - Vishrut S. — vshah80@asu.edu  
 
 _All authors are students in the School of Computing and Augmented Intelligence, Arizona State University._
