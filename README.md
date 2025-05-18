@@ -44,11 +44,17 @@ We evaluated and compared four platforms for in-database inference:
 1. **Model Architecture**  
    - Compared a pretrained EfficientNetB0 (81% validation accuracy, prone to overfitting) with a custom-designed CNN optimized for our ID-fraud domain.  
    - Custom CNN uses three convolutional layers, max-pooling, and fully-connected layers for binary classification.
+   - ![image](https://github.com/user-attachments/assets/3a4df484-e9a0-4227-bebd-8a8435fc9382)
+   - ![image](https://github.com/user-attachments/assets/1dbf4732-3abf-4630-915b-fad375fc28dd)
+
+
 
 2. **Spark Integration**  
    - Export trained PyTorch model to disk.  
    - Implement a Python function to decode Base64 images, preprocess, and perform inference.  
    - Register that function as a PySpark UDF and invoke it directly within Spark SQL queries.
+   - ![image](https://github.com/user-attachments/assets/86fe281c-0f6d-4c5b-bfe9-581a33d6aef3)
+
 
 ---
 
