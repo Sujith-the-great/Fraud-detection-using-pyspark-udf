@@ -1,0 +1,6 @@
+1. use pandas UDFs with batch processing for better performance
+
+2. directly running sql queries on spark takes a lot of time as it sends models to predict for each image present in the table, which is highly inefficient.
+   To solve this, I have create  new column where image is fraud or not has been precomputed and use this column
+
+3. 16 cores, 32 gb ram, else extremely slow for pandas experiment
