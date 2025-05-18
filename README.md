@@ -53,6 +53,11 @@ We evaluated and compared four platforms for in-database inference:
 ---
 
 ## Results
+![image](https://github.com/user-attachments/assets/e9ee4741-43e7-4fc4-aa49-6d490ebfd8d0)
+![image](https://github.com/user-attachments/assets/6e054521-07bd-44f4-9104-00070b42dd38)
+![image](https://github.com/user-attachments/assets/2728d017-061d-4f14-b885-80c0dbf67755)
+![image](https://github.com/user-attachments/assets/f0d4ea9d-043d-4162-8f0d-e2a1acb2a164)
+
 - **Accuracy**  
   - EfficientNetB0: ~81% but unstable on subtle fraud patterns  
   - Custom CNN: Comparable accuracy, faster training, better generalization  
